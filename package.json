@@ -1,5 +1,4 @@
 {
-  "name": "@quoine/react-scripts",
   "private": true,
   "workspaces": [
     "packages/*"

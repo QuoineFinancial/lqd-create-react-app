@@ -1,14 +1,14 @@
 {
-  "name": "react-scripts-wankara",
-  "version": "1.0.19",
+  "name": "@quoine/react-scripts",
+  "version": "1.0.20",
   "description": "Configuration and scripts for Create React App.",
-  "repository": "willnguyen1312/cra-fork",
+  "repository": "QuoineFinancial/lqd-create-react-app",
   "license": "MIT",
   "engines": {
     "node": ">=6"
   },
   "bugs": {
-    "url": "https://github.com/willnguyen1312/cra-fork/issues"
+    "url": "https://github.com/QuoineFinancial/lqd-create-react-app"
   },
   "files": [
     "bin",
