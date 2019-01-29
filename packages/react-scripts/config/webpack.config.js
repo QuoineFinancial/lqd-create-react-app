@@ -572,9 +572,9 @@ module.exports = function(webpackEnv) {
           {
             inject: true,
             template: paths.appHtml,
-            // title: seoRoot.title,
-            // description: seoRoot.description,
-            // meta: getHtmlMeta(),
+            title: seoRoot.title,
+            description: seoRoot.description,
+            meta: getHtmlMeta(),
           },
           isEnvProduction
             ? {
@@ -698,7 +698,7 @@ module.exports = function(webpackEnv) {
         // overice by its own
         { from: paths.selfPublic, to: paths.appBuild, ignore: [paths.appHtml] },
       ]),
-      // ...SeoPlugins,
+      ...SeoPlugins,
     ].filter(Boolean),
     // Some libraries import Node modules but don't use them in the browser.
     // Tell Webpack to provide empty mocks for them so importing them works.
